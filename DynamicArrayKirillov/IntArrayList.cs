@@ -49,7 +49,7 @@
         size++;
     }
 
-    public void PopBack(int value)
+    public void PopBack()
     {
         if (size == 0)
         {
