@@ -1,0 +1,12 @@
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\bin\Debug\net8.0\Kirillov_CatFramework.deps.json
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\bin\Debug\net8.0\Kirillov_CatFramework.dll
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\bin\Debug\net8.0\Kirillov_CatFramework.pdb
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\Kirillov_CatFramework.csproj.AssemblyReference.cache
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\Kirillov_CatFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\Kirillov_CatFramework.AssemblyInfoInputs.cache
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\Kirillov_CatFramework.AssemblyInfo.cs
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\Kirillov_CatFramework.csproj.CoreCompileInputs.cache
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\Kirillov_CatFramework.dll
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\refint\Kirillov_CatFramework.dll
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\Kirillov_CatFramework.pdb
+C:\Users\alexe\RiderProjects\Kirillov_Cat\Kirillov_CatFramework\obj\Debug\net8.0\ref\Kirillov_CatFramework.dll
