@@ -31,8 +31,10 @@
 
         set
         {
-            if(index >= size)
+            if (index > size)
                 throw new IndexOutOfRangeException();
+            else if (index = size)
+                PushBack(value);
 
             container[index] = value;
         }
