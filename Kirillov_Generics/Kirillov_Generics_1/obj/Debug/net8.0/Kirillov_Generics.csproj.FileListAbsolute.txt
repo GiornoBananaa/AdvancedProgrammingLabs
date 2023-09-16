@@ -1,0 +1,15 @@
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\bin\Debug\net8.0\Kirillov_Generics.exe
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\bin\Debug\net8.0\Kirillov_Generics.deps.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\bin\Debug\net8.0\Kirillov_Generics.runtimeconfig.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\bin\Debug\net8.0\Kirillov_Generics.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\bin\Debug\net8.0\Kirillov_Generics.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\Kirillov_Generics.csproj.AssemblyReference.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\Kirillov_Generics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\Kirillov_Generics.AssemblyInfoInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\Kirillov_Generics.AssemblyInfo.cs
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\Kirillov_Generics.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\Kirillov_Generics.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\refint\Kirillov_Generics.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\Kirillov_Generics.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\Kirillov_Generics.genruntimeconfig.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Generics\Kirillov_Generics\obj\Debug\net8.0\ref\Kirillov_Generics.dll

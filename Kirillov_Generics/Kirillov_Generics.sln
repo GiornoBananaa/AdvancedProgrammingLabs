@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kirillov_Generics_1", "Kirillov_Generics_1\Kirillov_Generics_1.csproj", "{C91AE537-C99C-469B-9152-E4B5BA87C505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kirillov_Generics_2", "Kirillov_Generics_2\Kirillov_Generics_2.csproj", "{2DBEA80A-AFF3-4AFC-BC70-94E129148A89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C91AE537-C99C-469B-9152-E4B5BA87C505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91AE537-C99C-469B-9152-E4B5BA87C505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91AE537-C99C-469B-9152-E4B5BA87C505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91AE537-C99C-469B-9152-E4B5BA87C505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBEA80A-AFF3-4AFC-BC70-94E129148A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBEA80A-AFF3-4AFC-BC70-94E129148A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBEA80A-AFF3-4AFC-BC70-94E129148A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBEA80A-AFF3-4AFC-BC70-94E129148A89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
