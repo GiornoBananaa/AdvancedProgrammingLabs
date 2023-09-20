@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Kirillov_Generics_3/1.0.0": {
+        "dependencies": {
+          "Kirillov_Generics_2": "1.0.0"
+        },
+        "runtime": {
+          "Kirillov_Generics_3.dll": {}
+        }
+      },
+      "Kirillov_Generics_2/1.0.0": {
+        "runtime": {
+          "Kirillov_Generics_2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kirillov_Generics_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kirillov_Generics_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

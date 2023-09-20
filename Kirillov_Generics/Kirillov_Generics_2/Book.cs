@@ -3,11 +3,11 @@
 public class Book<T>
 {
     private string _name;
-    private string _pagesCount;
+    private int _pagesCount;
     private string _author;
     private T _id;
 
-    public Book(string name, string pagesCount, string author, T id)
+    public Book(string name, int pagesCount, string author, T id)
     {
         _name = name;
         _pagesCount = pagesCount;
