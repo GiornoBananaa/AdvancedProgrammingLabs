@@ -16,14 +16,15 @@ internal static class Program
         circle3.SetRadius("1");
         circle4.SetRadius(4.2);
         
-        Console.WriteLine("Задача-4");
+        Console.WriteLine("Задача №4");
         Console.WriteLine(circle1.Radius + " - " + circle1.Square);
         Console.WriteLine(circle2.Radius + " - " + circle2.Square);
         Console.WriteLine(circle3.Radius + " - " + circle3.Square);
         Console.WriteLine(circle4.Radius + " - " + circle4.Square);
         
         //----------------
-
+        Console.WriteLine("Задача №4");
+        
         Rectangle<string,int> rectangle1 = new Rectangle<string,int>(new Vector2(0,0),"2",4);
         Rectangle<float,double> rectangle2 = new Rectangle<float,double>(new Vector2(1.5f, 2.5f),2.5f,3.3);
         Rectangle<string,float> rectangle3 = new Rectangle<string,float>(new Vector2(-2, 3),"3",4.2f);
