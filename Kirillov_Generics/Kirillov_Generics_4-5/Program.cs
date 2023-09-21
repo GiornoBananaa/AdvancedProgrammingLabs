@@ -27,5 +27,9 @@ internal static class Program
         Rectangle<string,int> rectangle1 = new Rectangle<string,int>(new Vector2(0,0),"2",4);
         Rectangle<float,double> rectangle2 = new Rectangle<float,double>(new Vector2(1.5f, 2.5f),2.5f,3.3);
         Rectangle<string,float> rectangle3 = new Rectangle<string,float>(new Vector2(-2, 3),"3",4.2f);
+
+        Console.WriteLine($"Левая верхняя точка - {rectangle1.MinPoint}; Правая нижняя точка - {rectangle1.MaxPoint};");
+        Console.WriteLine($"Левая верхняя точка - {rectangle2.MinPoint}; Правая нижняя точка - {rectangle2.MaxPoint};");
+        Console.WriteLine($"Левая верхняя точка - {rectangle3.MinPoint}; Правая нижняя точка - {rectangle3.MaxPoint};");
     }
 }
