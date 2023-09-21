@@ -13,7 +13,7 @@ public abstract class Vehicle : Property
 
     public override float СalculateTax()
     {
-        return Worth * _taxRate;
+        return Worth * _engineСapacity * _taxRate;
     }
 
     public override string ToString()
