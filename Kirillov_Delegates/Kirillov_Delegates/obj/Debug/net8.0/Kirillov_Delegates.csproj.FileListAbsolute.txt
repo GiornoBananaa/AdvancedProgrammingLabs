@@ -1,0 +1,15 @@
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\bin\Debug\net8.0\Kirillov_Delegates.exe
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\bin\Debug\net8.0\Kirillov_Delegates.deps.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\bin\Debug\net8.0\Kirillov_Delegates.runtimeconfig.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\bin\Debug\net8.0\Kirillov_Delegates.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\bin\Debug\net8.0\Kirillov_Delegates.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\Kirillov_Delegates.csproj.AssemblyReference.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\Kirillov_Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\Kirillov_Delegates.AssemblyInfoInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\Kirillov_Delegates.AssemblyInfo.cs
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\Kirillov_Delegates.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\Kirillov_Delegates.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\refint\Kirillov_Delegates.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\Kirillov_Delegates.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\Kirillov_Delegates.genruntimeconfig.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Delegates\Kirillov_Delegates\obj\Debug\net8.0\ref\Kirillov_Delegates.dll
