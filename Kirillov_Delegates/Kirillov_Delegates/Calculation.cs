@@ -1,12 +1,19 @@
 ﻿namespace Kirillov_Delegates;
 
+public delegate float FactorialDelegate(object obj);
+public delegate int NumSumDelegate (object obj);
+public delegate int NumMultDelegate (object obj);
+public delegate void PrintSumDelegate (object obj);
+public delegate void PrintMultDelegate (object obj);
+public delegate void PrintDelegate ();
+
 static class Calculation
-{
-    public delegate float FactorialDelegate(object obj);
-    public delegate int NumSumDelegate (object obj);
-    public delegate int NumMultDelegate (object obj);
-    public delegate void PrintSumDelegate (object obj);
-    public delegate void PrintMultDelegate (object obj);
+{ 
+    public static FactorialDelegate FactorialDelegate = Factorial;
+    public static NumSumDelegate NumSumDelegate = NumSum;
+    public static NumMultDelegate NumMultDelegate = NumMult;
+    public static PrintSumDelegate PrintSumDelegate = PrintSum;
+    public static PrintMultDelegate PintMultDelegate = PrintMult;
     
     public static float Factorial(object t)
     {
@@ -49,14 +56,28 @@ static class Calculation
 
     public static void PrintSum(object f)
     {
-        Console.WriteLine(NumSum(f));
+        Console.WriteLine($"Сумма цифр числа {f}: " + NumSum(f));
     }
     
     public static void PrintMult(object f)
     {
-        Console.WriteLine(NumMult(f));
+        Console.WriteLine($"Произведение цифр числа {f}: " + NumMult(f));
     }
+    
+    public static PrintDelegate PrintSumMult(object t)
+    {
+        int f = (int)ConvertFloat(t);
+        
+        PrintDelegate printDelegate;
 
+        if (f % 2 == 0)
+            printDelegate = () => PrintSum(f);
+        else
+            printDelegate = () => PrintMult(f);
+        
+        return printDelegate;
+    }
+    
     public static bool RemoveOdd(int f, out int deletedCount,out int result)
     {
         string fstr = f.ToString();
