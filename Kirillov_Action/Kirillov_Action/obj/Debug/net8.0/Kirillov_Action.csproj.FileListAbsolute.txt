@@ -1,0 +1,15 @@
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\bin\Debug\net8.0\Kirillov_Action.exe
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\bin\Debug\net8.0\Kirillov_Action.deps.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\bin\Debug\net8.0\Kirillov_Action.runtimeconfig.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\bin\Debug\net8.0\Kirillov_Action.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\bin\Debug\net8.0\Kirillov_Action.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\Kirillov_Action.csproj.AssemblyReference.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\Kirillov_Action.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\Kirillov_Action.AssemblyInfoInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\Kirillov_Action.AssemblyInfo.cs
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\Kirillov_Action.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\Kirillov_Action.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\refint\Kirillov_Action.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\Kirillov_Action.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\Kirillov_Action.genruntimeconfig.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_Action\Kirillov_Action\obj\Debug\net8.0\ref\Kirillov_Action.dll
