@@ -8,7 +8,7 @@ static class EventSystem
     {
         if (_actions.ContainsKey(eventName)) return;
         
-        _actions.Add(eventName,new Action(()=>Console.WriteLine($"{eventName} event is invoked")));
+        _actions.Add(eventName,()=>Console.WriteLine($"{eventName} event is invoked"));
     }
     
     public static void RemoveEvent(string eventName)
