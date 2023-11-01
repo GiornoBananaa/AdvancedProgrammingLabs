@@ -1,0 +1,15 @@
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\bin\Debug\net8.0\Kirillov_KTAction.exe
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\bin\Debug\net8.0\Kirillov_KTAction.deps.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\bin\Debug\net8.0\Kirillov_KTAction.runtimeconfig.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\bin\Debug\net8.0\Kirillov_KTAction.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\bin\Debug\net8.0\Kirillov_KTAction.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\Kirillov_KTAction.csproj.AssemblyReference.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\Kirillov_KTAction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\Kirillov_KTAction.AssemblyInfoInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\Kirillov_KTAction.AssemblyInfo.cs
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\Kirillov_KTAction.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\Kirillov_KTAction.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\refint\Kirillov_KTAction.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\Kirillov_KTAction.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\Kirillov_KTAction.genruntimeconfig.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Kirillov_KTAction\Kirillov_KTAction\obj\Debug\net8.0\ref\Kirillov_KTAction.dll
