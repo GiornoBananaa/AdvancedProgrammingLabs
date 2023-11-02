@@ -6,15 +6,21 @@ class Player
     {
         EventSystem.Subscribe("AttackWaveStart",StartAttack);
         EventSystem.Subscribe("AttackWaveEnd",StopAttack);
+        EventSystem.Subscribe("DateTime",CheckDate);
     }
 
-    private void StartAttack()
+    private void StartAttack(DateTime time)
     {
-        Console.WriteLine($"Player: Сейчас {DateTime.Now}, я готов к отражению атаки монстров!");
+        Console.WriteLine($"Player: Сейчас {time}, я готов к отражению атаки монстров!");
     }
     
-    private void StopAttack()
+    private void StopAttack(DateTime time)
     {
         Console.WriteLine("Player: Я успешно отбился от врагов и теперь могу вернуться домой, а также отписаться от события AttackWaveEnd");
+    }
+    
+    private void CheckDate(DateTime time)
+    {
+        Console.WriteLine($"Player: Текущее время - {time}");
     }
 }

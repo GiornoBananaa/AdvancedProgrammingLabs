@@ -17,6 +17,10 @@ internal class Program
         EventSystem.RaiseEvent("AttackWaveStart");
         EventSystem.RaiseEvent("AttackWaveEnd");
         
-        EventSystem.Clear();
+        while (true)
+        {
+            EventSystem.RaiseEvent("DateTime");
+            Thread.Sleep(1000);
+        }
     }
 }
