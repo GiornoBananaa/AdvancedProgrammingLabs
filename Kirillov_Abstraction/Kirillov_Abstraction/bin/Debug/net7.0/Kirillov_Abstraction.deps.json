@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Kirillov_Abstraction/1.0.0": {
+        "runtime": {
+          "Kirillov_Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kirillov_Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\bin\Debug\net7.0\Kirillov_Abstraction.exe
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\bin\Debug\net7.0\Kirillov_Abstraction.deps.json
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\bin\Debug\net7.0\Kirillov_Abstraction.runtimeconfig.json
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\bin\Debug\net7.0\Kirillov_Abstraction.dll
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\bin\Debug\net7.0\Kirillov_Abstraction.pdb
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\Kirillov_Abstraction.csproj.AssemblyReference.cache
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\Kirillov_Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\Kirillov_Abstraction.AssemblyInfoInputs.cache
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\Kirillov_Abstraction.AssemblyInfo.cs
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\Kirillov_Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\Kirillov_Abstraction.dll
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\refint\Kirillov_Abstraction.dll
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\Kirillov_Abstraction.pdb
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\Kirillov_Abstraction.genruntimeconfig.cache
+C:\Users\Student\Downloads\Kirillov\AdvancedProgrammingLabs\Kirillov_Abstraction\Kirillov_Abstraction\obj\Debug\net7.0\ref\Kirillov_Abstraction.dll
