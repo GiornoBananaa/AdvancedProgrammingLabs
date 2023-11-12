@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8544bkkMaNslg5WVBvkaFcUvAFg1ijlqJy4uj8P0Zdd6EA87zMPitrcH30goC/yuiDtN8rOxLYvuTOYwB9LJfA==",
+  "dgSpecHash": "EBqzf+TEe5zgWj+E9PxJbSJUZkHt/cpSy2zXom5gCzwOrpAF0LLfbXuXxuoed+BnhLeVfFQDFhx2D+TjWnoQcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\Downloads\\Kirillov\\AdvancedProgrammingLabs\\Kirillov_Abstraction\\Kirillov_Abstraction\\Kirillov_Abstraction.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projects\\GitHub\\AdvancedProgrammingLabs\\Kirillov_Abstraction\\Kirillov_Abstraction\\Kirillov_Abstraction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.2\\microsoft.netcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.2\\microsoft.windowsdesktop.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.2\\microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512",
+    "C:\\Users\\alexe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.2\\microsoft.netcore.app.host.win-x64.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
