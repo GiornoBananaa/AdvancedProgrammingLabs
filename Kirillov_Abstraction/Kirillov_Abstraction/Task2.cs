@@ -29,7 +29,7 @@ class FictionBook : Book
     
     public override string GetInformation()
     {
-        return $"'Автор этого художественного произведения - {Author}. Размер книги состовляет {Pages}";
+        return $"Автор этого художественного произведения - {Author}. Размер книги состовляет {Pages}";
     }
 }
 

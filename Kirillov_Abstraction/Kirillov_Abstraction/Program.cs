@@ -5,6 +5,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("   Задание 1   ");
         Employee[] employees =
         {
             new Worker(500,22),
@@ -18,6 +19,7 @@ internal class Program
             employee.CalculateSalary();
         }
         
+        Console.WriteLine("   Задание 2   ");
         Book[] books =
         {
             new FictionBook(500,"Пушкин A.C."),
@@ -30,6 +32,7 @@ internal class Program
             Console.WriteLine(book.GetInformation());
         }
         
+        Console.WriteLine("   Задание 3   ");
         Product[] products =
         {
             new Electrics(320,"наушники"),
