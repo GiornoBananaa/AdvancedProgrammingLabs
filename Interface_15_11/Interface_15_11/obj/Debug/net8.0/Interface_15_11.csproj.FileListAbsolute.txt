@@ -1,0 +1,15 @@
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\bin\Debug\net8.0\Interface_15_11.exe
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\bin\Debug\net8.0\Interface_15_11.deps.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\bin\Debug\net8.0\Interface_15_11.runtimeconfig.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\bin\Debug\net8.0\Interface_15_11.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\bin\Debug\net8.0\Interface_15_11.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\Interface_15_11.csproj.AssemblyReference.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\Interface_15_11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\Interface_15_11.AssemblyInfoInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\Interface_15_11.AssemblyInfo.cs
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\Interface_15_11.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\Interface_15_11.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\refint\Interface_15_11.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\Interface_15_11.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\Interface_15_11.genruntimeconfig.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\Interface_15_11\Interface_15_11\obj\Debug\net8.0\ref\Interface_15_11.dll
