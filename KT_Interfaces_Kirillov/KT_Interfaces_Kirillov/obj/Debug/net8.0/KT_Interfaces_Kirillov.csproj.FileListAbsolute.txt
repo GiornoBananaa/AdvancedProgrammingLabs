@@ -1,0 +1,15 @@
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\bin\Debug\net8.0\KT_Interfaces_Kirillov.exe
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\bin\Debug\net8.0\KT_Interfaces_Kirillov.deps.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\bin\Debug\net8.0\KT_Interfaces_Kirillov.runtimeconfig.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\bin\Debug\net8.0\KT_Interfaces_Kirillov.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\bin\Debug\net8.0\KT_Interfaces_Kirillov.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\KT_Interfaces_Kirillov.csproj.AssemblyReference.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\KT_Interfaces_Kirillov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\KT_Interfaces_Kirillov.AssemblyInfoInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\KT_Interfaces_Kirillov.AssemblyInfo.cs
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\KT_Interfaces_Kirillov.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\KT_Interfaces_Kirillov.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\refint\KT_Interfaces_Kirillov.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\KT_Interfaces_Kirillov.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\KT_Interfaces_Kirillov.genruntimeconfig.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Interfaces_Kirillov\KT_Interfaces_Kirillov\obj\Debug\net8.0\ref\KT_Interfaces_Kirillov.dll
