@@ -1,14 +1,16 @@
 ﻿namespace KT_Final;
 
+class Program
+{
+    public static void Main()
+    {
+        World world = new World(5);
+        world.PrintMap();
+    }
+}
+
 public class World
 {
-    /*
-    public class WorldCell
-    {
-        public GameObject? GameObject;
-        public Vector2
-    }*/
-    
     public GameObject?[,] WorldMap;
     
     public World(int size)
@@ -34,6 +36,41 @@ public class World
     public void WorldTick()
     {
         
+    }
+
+    public void PrintMap()
+    {
+        int firstDLength = WorldMap.GetLength(0);
+        int secondDLength = WorldMap.GetLength(1);
+        for(int i = 0; i < firstDLength; i++)
+        {
+            if(i == 0)
+            {
+                Console.Write(new string('-', secondDLength * 6 + 1));
+                Console.Write("\n");
+            }
+            
+            for(int j = 0; j < secondDLength; j++)
+            {
+                if(j == 0)
+                    Console.Write("|  ");
+                else
+                    Console.Write("  |  ");
+                
+                switch (WorldMap[i,j])
+                {
+                    case null:
+                        Console.Write(" ");
+                        break;
+                }
+                if(j == secondDLength-1)
+                    Console.Write("  |");
+                    
+            }
+            Console.Write("\n");
+            Console.Write(new string('-', secondDLength * 6 + 1));
+            Console.Write("\n");
+        }
     }
 }
 
@@ -72,6 +109,8 @@ public abstract class GameObject
             _position = value;
         }
     }
+
+    public abstract void Update();
 }
 
 public interface IKillable
@@ -108,6 +147,6 @@ public interface ICombatCapable
 {
     protected int AttackForce { get; set; }
     protected int AttackRange { get; set; }
-
+    
     public void Attack(IKillable target);
 }
