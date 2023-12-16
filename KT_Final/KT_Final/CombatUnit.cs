@@ -1,21 +1,26 @@
-﻿namespace KT_Final;
+﻿using System.Diagnostics;
+
+namespace KT_Final;
 
 public abstract class CombatUnit<CombatEnemy>: GameObject, IKillable, ICombatCapable where CombatEnemy: IKillable
 {
     protected bool IsDead;
+    protected int HealPercent;
+    protected ConsoleColor Color;
     
     public int MaxHp { get; set; }
     public int Hp { get; set; }
     public int AttackForce { get; set; }
     public int AttackRange { get; set; }
     
-    public CombatUnit(World world, Vector2 position, int maxHp, 
-        int attackForce, int attackRange) : base(world, position)
+    public CombatUnit(World world, string name,Vector2 position,ConsoleColor renderColor, char renderSymbol, int maxHp, 
+        int attackForce, int attackRange,int healPercent) : base(world, name, position,renderColor,renderSymbol)
     {
         MaxHp = maxHp;
         Hp = MaxHp;
         AttackForce = attackForce;
         AttackRange = attackRange;
+        HealPercent = healPercent;
     }
     
     public override void Update()
@@ -24,13 +29,34 @@ public abstract class CombatUnit<CombatEnemy>: GameObject, IKillable, ICombatCap
         CheckAttackRange();
     }
     
+    public void TakeDamage(int damage)
+    {
+        if (damage <= 0) return;
+        
+        Hp -= damage;
+        if (Hp <= 0)
+        {
+            Hp = 0;
+            Die();
+        }
+        Heal(HealPercent/100 * MaxHp);
+    }
+    
+    public void Heal(int hp)
+    {
+        if (hp <= 0) return;
+        
+        Hp += hp;
+        if (Hp > MaxHp)
+            Hp = MaxHp;
+    }
+    
     public void Attack(IKillable target)
     {
         target.TakeDamage(AttackForce);
     }
     
-    /* Массивность метода по поиску врагов в рендже обусловлена поиском ближайших врагов,
-    а не тех кто оказался в правом углу ренджи, что происходило бы при обычном проходом по области. Поиск проходит по кольцам вокруг юнита, начиная с ближайшего кольца 3 на 3.*/
+    //Поиск проходит по кольцам вокруг юнита, начиная с ближайшего кольца 3 на 3.
     protected bool CheckAttackRange()
     {
         for (int ring = 1; ring <= AttackRange; ring++)
@@ -42,27 +68,28 @@ public abstract class CombatUnit<CombatEnemy>: GameObject, IKillable, ICombatCap
             Vector2 direction = new Vector2(0,1);
             for (int i = 0; i < ringLength; i++)
             {
-                if(position.X < 0 
-                   || position.Y < 0 
-                   || position.X > _world.WorldMap.GetLength(0) 
-                   || position.Y > _world.WorldMap.GetLength(1)) 
-                    continue;
-            
-                GameObject? objectInCell = _world.WorldMap[position.X, position.Y];
-
-                if (objectInCell != null && objectInCell is CombatEnemy)
+                if (position.X >= 0
+                    && position.Y >= 0
+                    && position.X < _world.WorldMap.GetLength(0)
+                    && position.Y < _world.WorldMap.GetLength(1))
                 {
-                    Attack((Tower)objectInCell);
-                    return true;
+                    GameObject? objectInCell = _world.WorldMap[position.X, position.Y];
+                    if(objectInCell == null)
+                        _world.RenderChar(position,' ',RenderColor);
+                    if (objectInCell != null && objectInCell is CombatEnemy combatEnemy)
+                    {
+                        Attack(combatEnemy);
+                        return true;
+                    }
                 }
                 
                 position += direction;
-                if (direction.X == 0 && direction.Y == 1 && position.Y == startPosition.Y+ringSize)
+                if (direction.X == 0 && direction.Y == 1 && position.Y == startPosition.Y+ringSize-1)
                 {
                     direction.X = 1;
                     direction.Y = 0;
                 }
-                else if (direction.X == 1 && direction.Y == 0 && position.X == startPosition.X+ringSize)
+                else if (direction.X == 1 && direction.Y == 0 && position.X == startPosition.X+ringSize-1)
                 {
                     direction.X = 0;
                     direction.Y = -1;

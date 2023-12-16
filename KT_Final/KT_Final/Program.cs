@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Diagnostics;
 
 namespace KT_Final;
 
@@ -6,10 +6,17 @@ internal static class Program
 {
     public static void Main()
     {
-        World world = new World(5);
-        world.PrintMap();
+        World world = new World(7);
+        
+        world.AddBerserkEnemy(new Vector2(0,0));
+        world.AddBasicTower(new Vector2(1,5));
+        world.AddBasicTower(new Vector2(5,2));
+        world.AddHighTower(new Vector2(6,6));
+
+        while (world.GameObjects.Count != 0)
+        {
+            Thread.Sleep(1000);
+            world.WorldTick();
+        }
     }
 }
-
-//TODO: enemy move
-//TODO: WorldMap to own class

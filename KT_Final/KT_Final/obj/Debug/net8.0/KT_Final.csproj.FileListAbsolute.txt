@@ -1,0 +1,15 @@
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\bin\Debug\net8.0\KT_Final.exe
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\bin\Debug\net8.0\KT_Final.deps.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\bin\Debug\net8.0\KT_Final.runtimeconfig.json
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\bin\Debug\net8.0\KT_Final.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\bin\Debug\net8.0\KT_Final.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\KT_Final.csproj.AssemblyReference.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\KT_Final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\KT_Final.AssemblyInfoInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\KT_Final.AssemblyInfo.cs
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\KT_Final.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\KT_Final.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\refint\KT_Final.dll
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\KT_Final.pdb
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\KT_Final.genruntimeconfig.cache
+C:\Projects\GitHub\AdvancedProgrammingLabs\KT_Final\KT_Final\obj\Debug\net8.0\ref\KT_Final.dll
