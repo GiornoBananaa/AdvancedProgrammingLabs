@@ -74,8 +74,6 @@ public abstract class CombatUnit<CombatEnemy>: GameObject, IKillable, ICombatCap
                     && position.Y < _world.WorldMap.GetLength(1))
                 {
                     GameObject? objectInCell = _world.WorldMap[position.X, position.Y];
-                    if(objectInCell == null)
-                        _world.RenderChar(position,' ',RenderColor);
                     if (objectInCell != null && objectInCell is CombatEnemy combatEnemy)
                     {
                         Attack(combatEnemy);
@@ -109,7 +107,7 @@ public abstract class CombatUnit<CombatEnemy>: GameObject, IKillable, ICombatCap
         return false;
     }
     
-    public void Die()
+    public virtual void Die()
     {
         _world.WorldMap[Position.X, Position.Y] = null;
         IsDead = true;

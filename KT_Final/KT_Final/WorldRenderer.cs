@@ -1,4 +1,6 @@
-﻿namespace KT_Final;
+﻿using System.Diagnostics;
+
+namespace KT_Final;
 
 public class WorldRenderer
 {
@@ -28,14 +30,8 @@ public class WorldRenderer
         _symbolsRender[position.X, position.Y] = new RenderCell(symbol,color);
     }
     
-    public void RenderBackground(Vector2 position, ConsoleColor color)
-    {
-        _symbolsRender[position.X, position.Y].SymbolColor = color;
-    }
-    
     public void RenderWorld()
     {
-        //Console.Clear();
         DrawMap();
         Console.Write("\n");
         PrintGameObjectsInfo();
@@ -87,12 +83,13 @@ public class WorldRenderer
     
     private void PrintGameObjectsInfo()
     {
-        foreach (var gameObject in _world.GameObjects)
+        foreach (Tower tower in _world.Towers)
         {
-            if(gameObject is Tower tower)
-                Console.WriteLine($"{gameObject.Name} - {tower.Hp} hp");
-            else if(gameObject is Enemy enemy)
-                Console.WriteLine($"{gameObject.Name} - {enemy.Hp} hp");
+            Console.WriteLine($"{tower.Name} - {tower.Hp} hp");
+        }
+        foreach (Enemy enemy in _world.Enemies)
+        {
+            Console.WriteLine($"{enemy.Name} - {enemy.Hp} hp");
         }
     }
 }

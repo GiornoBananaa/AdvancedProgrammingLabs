@@ -13,10 +13,21 @@ internal static class Program
         world.AddBasicTower(new Vector2(5,2));
         world.AddHighTower(new Vector2(6,6));
 
-        while (world.GameObjects.Count != 0)
+        while (true)
         {
             Thread.Sleep(1000);
             world.WorldTick();
+
+            if (world.Towers.Count == 0)
+            {
+                Console.WriteLine("\nEnemies won!");
+                break;
+            }
+            if(world.Enemies.Count == 0)
+            {
+                Console.WriteLine("\nTowers won!");
+                break;
+            }
         }
     }
 }

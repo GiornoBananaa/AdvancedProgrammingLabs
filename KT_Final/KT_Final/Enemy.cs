@@ -1,4 +1,6 @@
-﻿namespace KT_Final;
+﻿using System.Diagnostics;
+
+namespace KT_Final;
 
 public class Enemy : CombatUnit<Tower>
 {
@@ -34,7 +36,6 @@ public class Enemy : CombatUnit<Tower>
         if (_pathDirection == new Vector2(0,0))
         {
             _pathWaypoints.Dequeue();
-            Console.WriteLine(_pathWaypoints.Count + " " + _pathWaypoints.Peek());
             if(_pathWaypoints.Count == 0)
                 return;
             _pathDirection = _pathWaypoints.Peek() - Position;
@@ -56,25 +57,22 @@ public class Enemy : CombatUnit<Tower>
 
     private void BuildPath()
     {
+        if(_world.Towers.Count == 0) return;
         List<Vector2> towerPositions = new List<Vector2>();
-        foreach (var gameObject in _world.GameObjects)
+        foreach (var gameObject in _world.Towers)
         {
-            if(gameObject is not Tower) continue;
             towerPositions.Add(gameObject.Position);
         }
         
-        if(towerPositions.Count == 0) return;
         Vector2 bufPosition = Position;
-        for (int i = 0; i < towerPositions.Count; i++)
+        for (int i = 0; i < _world.Towers.Count; i++)
         {
             Vector2 nearestPosition = towerPositions.First();
             
             foreach (var towerPosition in towerPositions)
             {
-                Console.WriteLine(Vector2.Distance(bufPosition, towerPosition)+$" {bufPosition} {towerPosition} | "+ Vector2.Distance(bufPosition, nearestPosition)+$" {bufPosition} {nearestPosition}");
                 if (Vector2.Distance(bufPosition, towerPosition) < Vector2.Distance(bufPosition, nearestPosition))
                 {
-                    Console.WriteLine("2");
                     nearestPosition = towerPosition;
                 }
             }
@@ -86,5 +84,11 @@ public class Enemy : CombatUnit<Tower>
         _pathDirection = _pathWaypoints.Peek() - Position;
         
         _world.OnWorldStart -= BuildPath;
+    }
+
+    public override void Die()
+    {
+        base.Die();
+        _world.Enemies.Remove(this);
     }
 }

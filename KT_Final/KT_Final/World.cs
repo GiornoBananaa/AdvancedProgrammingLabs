@@ -8,40 +8,42 @@ public class World
     
     public event Action OnWorldStart;
     
-    public List<GameObject> GameObjects { get; private set; }
+    public List<GameObject> Enemies { get; private set; }
+    public List<GameObject> Towers { get; private set; }
 
     public World(int size)
     {
         WorldMap = new GameObject?[size,size];
         WorldRenderer = new WorldRenderer(this);
-        GameObjects = new List<GameObject>();
+        Enemies = new List<GameObject>();
+        Towers = new List<GameObject>();
     }
     
     public void AddBasicEnemy(Vector2 position)
     {
         GameObject gameObject = CombatUnitFabric.CreateBasicEnemy(this,position);
-        GameObjects.Add(gameObject);
+        Enemies.Add(gameObject);
         WorldMap[position.X, position.Y] = gameObject;
     }
     
     public void AddBerserkEnemy(Vector2 position)
     {
         GameObject gameObject = CombatUnitFabric.CreateBerserkEnemy(this,position);
-        GameObjects.Add(gameObject);
+        Enemies.Add(gameObject);
         WorldMap[position.X, position.Y] = gameObject;
     }
     
     public void AddBasicTower(Vector2 position)
     {
         GameObject gameObject = CombatUnitFabric.CreateBasicTower(this,position);
-        GameObjects.Add(gameObject);
+        Towers.Add(gameObject);
         WorldMap[position.X, position.Y] = gameObject;
     }
     
     public void AddHighTower(Vector2 position)
     {
         GameObject gameObject = CombatUnitFabric.CreateHighTower(this,position);
-        GameObjects.Add(gameObject);
+        Towers.Add(gameObject);
         WorldMap[position.X, position.Y] = gameObject;
     }
     
@@ -53,9 +55,13 @@ public class World
             _firstTick = false;
             RenderWorld();
         }
-        foreach (var gameObject in GameObjects)
+        foreach (var tower in Towers)
         {
-            gameObject.Update();
+            tower.Update();
+        }
+        foreach (var enemy in Enemies)
+        {
+            enemy.Update();
         }
         RenderWorld();
     }
