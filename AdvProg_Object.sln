@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvProg_Object", "AdvProg_Object\AdvProg_Object.csproj", "{227FEA1C-E05D-432A-861C-0D047D1C1889}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{227FEA1C-E05D-432A-861C-0D047D1C1889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227FEA1C-E05D-432A-861C-0D047D1C1889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227FEA1C-E05D-432A-861C-0D047D1C1889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227FEA1C-E05D-432A-861C-0D047D1C1889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
