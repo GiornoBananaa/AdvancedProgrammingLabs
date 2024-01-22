@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation\\CompositionAndAggregation.csproj": {}
+    "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation\\CompositionAndAggregation.csproj": {
+    "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation\\CompositionAndAggregation.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation.csproj",
         "projectName": "CompositionAndAggregation",
-        "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation\\CompositionAndAggregation.csproj",
+        "projectPath": "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\CompositionAndAggregation\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Documents\\GitHub\\AdvancedProgrammingLabs\\CompositionAndAggregation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
